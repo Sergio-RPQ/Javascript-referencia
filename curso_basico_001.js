@@ -152,6 +152,20 @@ console.log(listaDestinos[2])
 console.log(listaDestinos.length)
 
 
+// Iterações sobre arrays
+let tamanhoLista = listaDestinos.length
+let contador = 0
+while (contador < tamanhoLista){
+    console.log(listaDestinos[contador])
+    contador++
+}
+
+for(contador = 0; contador < tamanhoLista; contador++){
+    console.log(listaDestinos[contador])
+}
+
+
+
 
 
 
