@@ -127,6 +127,35 @@ console.log("Sergio" / 2)
 // Atribuição e imutabilidade
 
 
+// Declarando listas(array)
+let listaDestinos = new Array("São Paulo", "Rio de janeiro", "Salvador", "Curitiba")
+let listaDestinos2 = ["São Paulo", "Rio de janeiro", "Salvador"]
+let listaDestinosVazia = []
+
+console.log(listaDestinos)
+console.log(listaDestinos2)
+console.log(listaDestinosVazia)
+
+// Adicionando item na lista vazia
+listaDestinosVazia.push("Porto Alegre")
+console.log(listaDestinosVazia)
+
+// Removendo items da lista
+console.log(listaDestinos)
+listaDestinos.splice(1, 1)
+console.log(listaDestinos)
+
+// Mostrar elemento pelo índice
+console.log(listaDestinos[2])
+
+// Mostrar a quantidade de elementos
+console.log(listaDestinos.length)
+
+
+
+
+
+
 
 
 
